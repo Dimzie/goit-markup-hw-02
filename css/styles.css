@@ -1,0 +1,168 @@
+/* Main text color, Background of 1st Section: #2E2F42 */
+/* Additionally text color, Adress color: #434455 */
+/* Third text color, Background header: #FFFFFF */
+/* Fourth text color, Background of 3d Section: #F4F4FD */
+/* Background of Third text color, Web-word color: #4D5AE5 */
+/* Background Active Button: #404BBF */
+
+:root {
+    /* Main Title: Color */
+    --h1-textButton-background: #FFFFFF;
+    /* Additionaly Title: Color */
+    --h2-h3-background: #2E2F42;
+    /* Main Navigation, Adress: Color */
+    --nav-adress-p: #434455;
+    /* Span, Main Title Button Background: Color */
+    --span-activeButton: #4D5AE5;
+    /* Footer Studio Word, Third Section Background: Color */
+    --background-studioWord-text: #F4F4FD;
+    /* Non-Active Buttons Background */
+    --nonActiveButtonsBackground: #E7E9FC;
+    /* Active Button Portfolio Background */
+    --activeButtonPortfolio: #404BBF;
+}
+/* ///////////////// */
+/* All Page: Settings */
+/* ///////////////// */
+body {
+    /* Font Settings */
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: var(--h1-textButton-background);
+    color: var(--nav-adress-p);
+}
+/* //////////////////////////// */
+/* WebStudio Text Link: Settings */
+/* //////////////////////////// */
+.web-studio-title {
+    /* Text Settings*/
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: var(--nav-adress-p);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.span-activeButton-color {
+    /* Web Word Settings */
+    color: var(--span-activeButton);
+}
+/* ///////////////////////////////////// */
+/* Studio, Portfolio, Contacts: Settings */
+/* ///////////////////////////////////// */
+.tab {
+    /* Tab Text Settings */
+    font-weight: 500;
+    color: var(--h2-h3-background);
+    text-decoration: none;
+}
+.tab:hover, .tab:focus {
+    /* Hover, Focus Tab Settings */
+    color: var(--span-activeButton);
+}
+/* ///////////////////// */
+/* Mail, Phone: Settings */
+/* ///////////////////// */
+.address .mail, .phone {
+    /* Mail, Phone Text Settings */
+    font-style: normal;
+    color: var(--nav-adress-p);
+    text-decoration: none;
+}
+/* /////////////////////*/
+/* 1st Section Settings */
+/* //////////////////// */
+.first-section {
+    /* Background Settings */
+    background-color: var(--h2-h3-background);
+}
+.h1-title {
+    /* h1 Title Text Settings */
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    color: var(--h1-textButton-background);
+}
+.button {
+    /* Button Settings */
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.active-button {
+    /* Active Button Text Settings */
+    color: var(--h1-textButton-background);
+    background-color: var(--span-activeButton);
+    text-decoration: none;
+}
+.active-button-portfolio {
+    /* Active Button Portfolio Settings */
+    color: var(--h1-textButton-background);
+    background-color: var(--activeButtonPortfolio);
+    text-decoration: none;
+}
+.active-button-portfolio:hover, .active-button-portfolio:focus {
+    /* Active Button Portfolio Focus, Hover Settings */
+    color: var(--span-activeButton);
+    background-color: var(--nonActiveButtonsBackground);
+}
+.active-button:hover, .active-button:focus {
+    /* Active Hover, Focus Button Settings */
+    color: var(--span-activeButton);
+    background-color: var(--h1-textButton-background);
+}
+.non-active-button {
+    /* Non-Active Button Settings */
+    color: var(--span-activeButton);
+    background-color: var(--nonActiveButtonsBackground);
+}
+.non-active-button:hover, .non-active-button:focus {
+    /* Non-Active Hover, Focus Settings */
+    color: var(--h1-textButton-background);
+    background-color: var(--span-activeButton);
+}
+/* ////////////////////////// */
+/* 2nd-4th Sections: Settings */
+/* ////////////////////////// */
+.h2-title {
+    /* h2 Title Text Settings */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    color: var(--h2-h3-background);
+}
+.h3-title {
+    /* h3 Title Text Settings */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--h2-h3-background);
+}
+.feature-list, .work-list, .team-list, 
+.address-list, .nav-tabs, .buttons-list,
+.cards-list {
+    /* No Dots In List */
+    list-style: none;
+}
+.fourth-section {
+    /* Background Settings */
+    background-color: var(--background-studioWord-text);
+}
+/* //////////////////////// */
+/* Bottom Section: Settings */
+/* //////////////////////// */
+.footer {
+    /* Background Footer Settings */
+    background-color: var(--h2-h3-background);
+}
+.footer .studio-footer, .footer-text {
+    /* Studio Word, Footer Text Settings */
+    color: var(--background-studioWord-text);
+}
