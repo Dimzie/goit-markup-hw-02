@@ -61,7 +61,7 @@ body {
 }
 .tab:hover, .tab:focus {
     /* Hover, Focus Tab Settings */
-    color: var(--span-activeButton);
+    color: var(--activeButtonPortfolio);
 }
 /* ///////////////////// */
 /* Mail, Phone: Settings */
@@ -71,6 +71,11 @@ body {
     font-style: normal;
     color: var(--nav-adress-p);
     text-decoration: none;
+}
+.mail:hover, .mail:focus,
+.phone:hover, .phone:focus {
+    /* Hover, Focus Mail/Phone Settings */
+    color: var(--activeButtonPortfolio);
 }
 /* /////////////////////*/
 /* 1st Section Settings */
@@ -114,8 +119,8 @@ body {
 }
 .active-button:hover, .active-button:focus {
     /* Active Hover, Focus Button Settings */
-    color: var(--span-activeButton);
-    background-color: var(--h1-textButton-background);
+    color: var(--h1-textButton-background);
+    background-color: var(--activeButtonPortfolio);
 }
 .non-active-button {
     /* Non-Active Button Settings */
